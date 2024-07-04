@@ -18,6 +18,7 @@ The video urls for the videos annotated portion of M-SyMoN is stored in: `url li
 `yt-dlp -i --no-warnings -c --no-overwrites --write-description --write-auto-subs --write-sub --sub-langs [target_language].* -o [output_dir]/%(id)s.%(ext)s --batch-file path/to/url_list.txt`
 
 [output_dir] is the output directory you wish to save the videos to.
+
 [target_language] specifies the language of the subtitles.
 
 ### Annotation
