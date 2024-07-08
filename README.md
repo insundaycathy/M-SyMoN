@@ -1,7 +1,9 @@
 
 # Multilingual-SyMoN
 ## Dataset release
-Here we release a video-language story dataset, M-SyMoN, which consist of 13,166 video summaries of popluar movies and TV shows in 7 languages (English, Chinese, Spanish, Portugese, French, Hindi, Russian). M-SyMoN is subitable for a varity of multilingual video story understanding tasks such as video-text retrieval, video temporal ordering, video-text alignment, etc. We release M-SyMoN for research purposes, please contact us if you would like to use the dataset of other purposes.
+Here we release a multilingual video-language story dataset, M-SyMoN, which consist of 13,166 video summaries of popluar movies and TV shows in 7 languages (English, Chinese, Spanish, Portugese, French, Hindi, Russian). M-SyMoN is subitable for a varity of multilingual video story understanding tasks such as video-text retrieval, video temporal ordering, video-text alignment, etc. We release M-SyMoN for research purposes, please contact us if you would like to use the dataset of other purposes. 
+
+See our paper *Multilingual Synopses of Movie Narratives: A Dataset for Story Understanding*: https://arxiv.org/abs/2406.13092 for more details.
 
 ## Introduction
 This dataset contains 13,166 movie/TV-show summary videos from various Youtube channels. You can find the download instructions and annotation file explainations here:
