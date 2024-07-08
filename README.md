@@ -7,7 +7,9 @@ Here we release a video-language story dataset, M-SyMoN, which consist of 13,166
 This dataset contains 13,166 movie/TV-show summary videos from various Youtube channels. You can find the download instructions and annotation file explainations here:
 
 ### Download
-The video urls for the unsupervised portion of M-SyMoN is stored in: `url list of unsupervised videos/`
+M-SyMoN is divided into a weakly-supervised portion without human annotations and a supervised portion with human annotated exact video-text correspondence. The weakly-supervised portion contains 12,686 videos and the supervised portion contains 480 videos. The supervised portion is further divided into a training set, a validation set and a test set. 
+
+The video urls for the weakly-supervised portion of M-SyMoN is stored in: `url list of weakly supervised videos/`
 
 The video urls for the videos annotated portion of M-SyMoN is stored in: `url list of annotated videos/`
 
@@ -22,8 +24,7 @@ The video urls for the videos annotated portion of M-SyMoN is stored in: `url li
 [target_language] specifies the language of the subtitles.
 
 ### Annotation
-We annotate 480 videos or 101.5 video hours with fine-grained video text correspondence. Specifically, for each caption sentences, we find the start time and end time of the
-video segment that matches the sentence.
+We annotate 480 videos or 101.5 video hours with fine-grained video text correspondence. Specifically, for each caption sentences, we find the start time and end time of the video segment that matches the sentence.
 
 #### Annotation files
 The annotations and train/test/val split can be found in: `annotations/`
