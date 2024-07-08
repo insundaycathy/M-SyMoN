@@ -9,7 +9,7 @@ This dataset contains 13,166 movie/TV-show summary videos from various Youtube c
 ### Download
 M-SyMoN is divided into a weakly-supervised portion without human annotations and a supervised portion with human annotated exact video-text correspondence. The weakly-supervised portion contains 12,686 videos and the supervised portion contains 480 videos. The supervised portion is further divided into a training set, a validation set and a test set. 
 
-The video urls for the weakly-supervised portion of M-SyMoN is stored in: `url list of weakly supervised videos/`
+The video urls for the weakly-supervised portion of M-SyMoN is stored in: `url list of weakly-supervised videos/`
 
 The video urls for the videos annotated portion of M-SyMoN is stored in: `url list of annotated videos/`
 
