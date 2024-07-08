@@ -9,9 +9,9 @@ See our paper *Multilingual Synopses of Movie Narratives: A Dataset for Story Un
 This dataset contains 13,166 movie/TV-show summary videos from various Youtube channels. You can find the download instructions and annotation file explainations here:
 
 ### Download
-M-SyMoN is divided into a weakly-supervised portion without human annotations and a supervised portion with human annotated exact video-text correspondence. The weakly-supervised portion contains 12,686 videos and the supervised portion contains 480 videos. The supervised portion is further divided into a training set, a validation set and a test set. 
+M-SyMoN is divided into a unannotated portion without human annotations and a annotated portion with human annotated exact video-text correspondence. The unannotated portion contains 12,686 videos and the annotated portion contains 480 videos. The annotated portion is further divided into a training set, a validation set and a test set. 
 
-The video urls for the weakly-supervised portion of M-SyMoN is stored in: `url list of weakly-supervised videos/`
+The video urls for the unannotated portion of M-SyMoN is stored in: `url list of unannotated videos/`
 
 The video urls for the videos annotated portion of M-SyMoN is stored in: `url list of annotated videos/`
 
