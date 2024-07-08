@@ -31,10 +31,10 @@ The annotations and train/test/val split can be found in: `annotations/`
 
 #### Annotation structure
 The annotations for each caption sentence contains 4 fields:
- - id: a unique video id that can be used to located the video on YouTube
+ - id: a unique video id that can be used to located the video on YouTube (the last 11 characters in the YouTube video url)
  - matched: 'Yes' if the sentence is grounded in the video, 'no' if the video is not located in the video.
- - begin_time: the start time of the video segment that corresponds to the sentence. If the sentence is not grounded in the video, the begin_time is zero.
- - end_time: the end time of the video segment  that corresponds to the sentence. If the sentence is not grounded in the video, the end_time is zero.
+ - begin_time: the start time of the video segment that corresponds to the sentence. If the sentence is not grounded in the video, the begin_time is 0.
+ - end_time: the end time of the video segment  that corresponds to the sentence. If the sentence is not grounded in the video, the end_time is 0.
 
 
  
